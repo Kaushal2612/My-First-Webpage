@@ -1,0 +1,66 @@
+﻿<html>
+
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<head>
+<script>
+function validateForm(){
+var x=document.forms["myForm"]["firstname"].value;
+if(x=null || x==""){alert("First name must be filled out");
+return false;
+}
+var y=document.forms["myForm"]["lastname"].value;
+if(y=null || y==""){alert("Last name must be filled out");
+return false;
+}
+}
+</script>
+</head>
+<body style="background-image:url(./images/download.jpg);background-size:cover;">
+
+<div class="body">
+		<header>
+			<img src="./image/musicicon.jpg" alt="image" class="left"/>
+			<nav class="head">
+				<ul>
+					<li> <img src="./image/comment.jpg"> <a href="./feedback.html">Feedback</a></li>
+					<li> <img src="./image/about.jpg"> <a href="./about.html">About</a></li>
+					
+				</ul>
+			</nav>
+			
+			<div class="clear"></div>
+		</header>
+
+<form id="form" name="myForm  method="post" action="./submit.html">
+
+
+<h2 id="please"><u><i>Please give us your feedback..</i></u></h2>
+Firstname: <input type="text" required="" placeholder="Write your First Name" name="firstname" /><br />
+Lastname: <input type="text" required="" placeholder="Write your Last Name" name="lastname" /><br/>
+SEX: <input type="radio" name="sex" value="male" /> Male
+<input type="radio" name="sex" value="female" /> Female <br/>
+
+<h2 id="please"><u><i>Please give us your rating..</i></U></h2><br>
+<input type="radio" name="rate" value="1 star">1star<br>
+<input type="radio" name="rate" value="2 star">2star<br>
+<input type="radio" name="rate" value="3 star">3star<br>
+<input type="radio" name="rate" value="4 star">4star<br>
+<input type="radio" name="rate" value="5 star">5star<br>
+
+Comment:
+<input type="text" name="comment"  size="50px" />
+<br />
+<br>
+<button>SUMBIT</button>
+</form>
+
+
+</div>
+
+		<footer class="bottom">
+			Created by:Kaushal Jhawar.<br>
+			Visit Us:kaushaljhawar1996@gmail.com
+		</footer>
+</form>
+</body>
+</html>
