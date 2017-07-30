@@ -1,0 +1,236 @@
+*{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}	
+
+header,aside,nav,article,section,footer{
+	display:block;
+}
+
+.body{
+	background-image:url(../image/background.jpg);
+	background-size:no-repeat;
+	background-size:100% 100%;
+	width:1326px;
+	margin:0px auto;
+	height:700px;
+	
+}
+
+.head li:hover{
+	font-size:50px;
+	height:100px;
+}
+
+.head img:hover{
+	font-size:35px;
+}
+
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+.clear{
+	clear:both;
+}
+
+#welcome {
+	color:red;
+	font-size:40px;
+	font-family:Lucida Calligraphy;
+}
+
+#get{
+	color:yellow;
+	font-size:35px;
+	font-family:MV Boli;
+}
+.left {
+	border-radius:10px;
+	float:left;
+	height:100px;
+	width:180px;
+	border:2px solid #380000;
+}
+
+.head ul li{
+	float:left;
+	font-size:45px;
+	height:80px;
+	font-family:monotype corsiva;
+}
+
+.head ul li{
+	background-color:white;
+	border:2px solid #380000;
+	border-radius:10px;	
+}
+
+.head img{
+	height:25px;
+	width:25px;
+	border-radius:15px;
+}
+
+.left_side{
+	float:left;
+	width:500px;
+}
+
+.left_side article{
+	border:2px solid red;
+}
+
+.right_side{
+	float:left;
+	width:300px;
+}
+
+
+.bottom{
+	color:yellow;
+	font-size:15px;
+	text-align:center;
+	background-color:grey;
+}
+
+/* for celebrities */
+.a img{
+	height:50px;
+	width:50px;
+	border-radius:40px;
+	border:2px solid red;
+}
+
+.a a{
+	color:006600;
+	font-size:30px;
+	display:inline;
+	font-family:Blackadder ITC;
+}
+
+/* for lyrics */
+.lyrics {
+	background-image:url(../lyrics.jpg);
+	background-size:cover;
+	width:1300px;
+	margin:0px auto;
+	height:1500px;
+}
+
+.ff {
+	font-family:Blackadder ITC;
+	font-size:30px;
+}
+
+#hh:{
+	font-family:forte;
+	font-size:80px;
+}
+
+/* feedback */
+#form {
+	color:yellow;
+	font-size:25px;
+	margin-left:10px;
+}
+
+#please {
+	color:red;
+	font-size:40px;
+}
+
+/*submit*/
+#thanks {
+	color:red;
+}
+
+#submit img {
+	height:100px;
+	width:100px;
+	border-radius:10px;
+	border:2px solid green;
+}
+
+#submit {
+	color:#FFFF00
+}
+
+/*images*/
+.gy li {
+	margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 181px;
+	height=200px;
+	border:2px outset green;
+	border-radius: 10px;
+}
+
+.gy img:hover {
+    border-radius:10px;	
+}
+
+.gy img {
+	border-radius:10px;
+}
+#name {
+	text-align:center;
+	color:white;
+	padding:5px;
+}
+
+/*about*/
+#au {
+	color:white;
+	font-family:MV boli;
+	font-size:30px;
+}
+
+#au img{
+	height:300px;
+	width:250px;
+	float:right;
+	margin-top:110px;
+	margin-right:100px;
+	border:10px outset white;
+	
+}
+
+/*heros*/
+.heros {
+	font-size:25px;
+	color:white;
+	text-align:centre;
+	font-family:High Tower Text;
+	
+}
+.hp {
+	border-radius:10px;
+	float:right;
+	margin-top:40px;
+	margin-right:15px;
+	
+	
+}
+
+.hp li img{
+	border-radius:10px;
+	border:2px solid blue;
+	background-color:white;
+}
